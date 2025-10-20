@@ -1,5 +1,11 @@
 {
   "name": "proxy-airtable",
   "version": "1.0.0",
-  "type": "module"
+  "description": "Proxy sécurisé pour Airtable via Vercel",
+  "type": "module",
+  "main": "api/airtable-proxy.js",
+  "scripts": {
+    "start": "node api/airtable-proxy.js"
+  },
+  "license": "MIT"
 }
